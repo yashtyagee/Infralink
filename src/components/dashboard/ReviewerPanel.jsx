@@ -12,8 +12,8 @@ export default function ReviewerPanel() {
 
   React.useEffect(() => {
     Promise.all([
-      fetch('http://localhost:8000/api/review/pending').then(r => r.json()),
-      fetch('http://localhost:8000/api/events/orphaned').then(r => r.json())
+      fetch('https://infralink-myw6.onrender.com/api/review/pending').then(r => r.json()),
+      fetch('https://infralink-myw6.onrender.com/api/events/orphaned').then(r => r.json())
     ]).then(([reviewData, orphanedData]) => {
       setQueue((reviewData || []).filter(i => i && typeof i === 'object'));
       setOrphanedEvents((orphanedData || []).filter(i => i && typeof i === 'object'));
@@ -29,7 +29,7 @@ export default function ReviewerPanel() {
     if (!ubid) return alert("Please enter a target UBID");
     
     try {
-      const res = await fetch('http://localhost:8000/api/events/attach', {
+      const res = await fetch('https://infralink-myw6.onrender.com/api/events/attach', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ event_id: eventId, ubid })
@@ -57,7 +57,7 @@ export default function ReviewerPanel() {
   const handleAction = async (id, decision) => {
     const item = queue.find(q => q.id === id);
     try {
-      const res = await fetch('http://localhost:8000/api/review', {
+      const res = await fetch('https://infralink-myw6.onrender.com/api/review', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

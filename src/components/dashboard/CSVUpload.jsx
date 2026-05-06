@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { UploadCloud, CheckCircle2, AlertTriangle, FileSpreadsheet, GitMerge, Network, Users, Layers } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API = 'http://localhost:8000';
+const API = 'https://infralink-myw6.onrender.com';
 
 export default function CSVUpload({ onUploadSuccess }) {
   const [dragActive, setDragActive] = useState(false);

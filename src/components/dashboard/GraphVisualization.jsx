@@ -16,7 +16,7 @@ import '@xyflow/react/dist/style.css';
 import { Database, Shield, Plus, Minus, Network, Focus, Building2, AlertCircle, Loader } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const API = 'http://localhost:8000';
+const API = 'https://infralink-myw6.onrender.com';
 
 // --- Custom Node Component ---
 const CustomNode = ({ data }) => {

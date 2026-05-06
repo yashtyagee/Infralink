@@ -3,7 +3,7 @@ import { FileSearch, CheckCircle2, AlertTriangle, ArrowRight } from 'lucide-reac
 import { motion } from 'framer-motion';
 import CSVUpload from './CSVUpload';
 
-const API = 'http://localhost:8000';
+const API = 'https://infralink-myw6.onrender.com';
 
 export default function EntityResolution() {
   const [match, setMatch] = React.useState(null);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Bell, Info, AlertTriangle, XCircle, CheckCircle2 } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://infralink-myw6.onrender.com/api';
 
 export default function NotificationBell() {
   const [open, setOpen] = useState(false);

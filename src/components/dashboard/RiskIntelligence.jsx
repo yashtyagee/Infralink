@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { AlertTriangle, ShieldAlert, Shield, ShieldCheck, Activity } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://infralink-myw6.onrender.com/api';
 
 export default function RiskIntelligence() {
   const [data, setData] = useState(null);

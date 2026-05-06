@@ -17,7 +17,7 @@ export default function AnalyticsPanel() {
     setLoading(true);
     setSearched(true);
     try {
-      const response = await fetch('http://localhost:8000/api/analytics/query', {
+      const response = await fetch('https://infralink-myw6.onrender.com/api/analytics/query', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

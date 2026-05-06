@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Download, FileText, FileSpreadsheet, Loader2 } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://infralink-myw6.onrender.com/api';
 
 export default function ExportMenu() {
   const [open, setOpen] = useState(false);

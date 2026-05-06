@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Fingerprint, Building2, Activity, ShieldCheck, MapPin, Building, Clock, Info, CheckCircle2, AlertTriangle, Search, X, Loader2, RefreshCw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API = 'http://localhost:8000';
+const API = 'https://infralink-myw6.onrender.com';
 
 export default function UBIDProfile() {
   const [profile, setProfile] = useState(null);

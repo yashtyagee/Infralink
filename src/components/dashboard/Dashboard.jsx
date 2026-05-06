@@ -15,7 +15,7 @@ import PipelineAnimation from './PipelineAnimation';
 import { useLanguage } from '../../contexts/LanguageContext';
 import './Dashboard.css';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://infralink-myw6.onrender.com/api';
 
 export default function Dashboard({ onBack }) {
   const [activeTab, setActiveTab] = useState('entity');
