@@ -5,7 +5,7 @@
 ### **Unified Business Identity & Active Intelligence Platform**
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-infralink--delta.vercel.app-7cff67?style=for-the-badge&logo=vercel&logoColor=white)](https://infralink-delta.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Nitinmall--1390-5227FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nitinmall-1390/Infralink)
+[![GitHub](https://img.shields.io/badge/GitHub-yashtyagee-5227FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashtyagee/Infralink)
 
 **One UBID per business. Zero system modifications. Infinite intelligence.**
 
